@@ -108,7 +108,7 @@ export class MCPClient {
         const response = await fetch(`${this.baseUrl}/mcp/call`, {
             method: 'POST',
             headers: this.getHeaders(),
-            body: JSON.stringify(payload),
+            body: JSON.parse(JSON.stringify(payload, null, 2)),
         });
 
         if (!response.ok) {

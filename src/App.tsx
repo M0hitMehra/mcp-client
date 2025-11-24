@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { MCPClient, MCPManifest, MCPTool } from './lib/mcpClient';
 import { ManifestSidebar } from './components/ManifestSidebar';
 import { ToolForm } from './components/ToolForm';
 import { OutputViewer } from './components/OutputViewer';
-import { Settings, Key, Server, Trash2 } from 'lucide-react';
+import { Key, Server, Trash2 } from 'lucide-react';
 
 function App() {
     // State for connection settings
