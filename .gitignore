@@ -1,0 +1,13 @@
+# --- Environment files ---
+.env
+.env.*
+
+# --- Node dependencies ---
+node_modules/
+**/node_modules/
+
+
+# --- Temp files ---
+tmp/
+temp/
+node_modules
